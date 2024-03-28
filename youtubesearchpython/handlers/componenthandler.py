@@ -39,10 +39,11 @@ class ComponentHandler:
             'type':                           'channel',
             'id':                              self._getValue(channel, ['channelId']),
             'title':                           self._getValue(channel, ['title', 'simpleText']),
+            'channelId':                       self._getValue(channel, ['subscriberCountText', 'simpleText']),
             'thumbnails':                      self._getValue(channel, ['thumbnail', 'thumbnails']),
             'videoCount':                      self._getValue(channel, ['videoCountText', 'runs', 0, 'text']),
             'descriptionSnippet':              self._getValue(channel, ['descriptionSnippet', 'runs']),
-            'subscribers':                     self._getValue(channel, ['subscriberCountText', 'simpleText']),
+            'subscribers':                     self._getValue(channel, ['videoCountText', 'simpleText']),
         }
         component['link'] = 'https://www.youtube.com/channel/' + component['id']
         return component
