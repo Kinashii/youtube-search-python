@@ -25,4 +25,3 @@ while playlist.hasMoreVideos:
     print(f'Videos Retrieved: {len(playlist.videos)}')
 
 print('Found all the videos.')
-
