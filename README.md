@@ -2,11 +2,6 @@
 
 ##### Search for YouTube videos, channels & playlists. Get video & playlist information using link. Get search suggestions. WITHOUT YouTube Data API v3.
 
-## There are no active project maintainers since 23rd June 2022. Details: [Here](https://github.com/alexmercerind/youtube-search-python/issues/189)
-
-[![PyPI - Version](https://img.shields.io/pypi/v/youtube-search-python?style=for-the-badge)](https://pypi.org/project/youtube-search-python)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/youtube-search-python?label=DOWNLOADS&style=for-the-badge)](https://pypi.org/project/youtube-search-python)
-
 ## Installing
 
 ```bash
